@@ -1,0 +1,147 @@
+:root {
+  --color-bright-orange: hsl(31, 77%, 52%);
+  --color-dark-cyan: hsl(184, 100%, 22%);
+  --color-very-dark-cyan: hsl(179, 100%, 13%);
+  --color-white: hsla(0, 0%, 100%, 0.75);
+  --color-light-gray: hsl(0, 0%, 95%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 15px;
+  margin: 0;
+  background-color: var(--color-light-gray);
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--color-white);
+  height: 100vh;
+}
+
+.container {
+  margin: 2.3rem;
+}
+.container section:first-child {
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.container section:last-child {
+  border-radius: 0 0 0.8rem 0.8rem;
+}
+.container-element {
+  background-color: var(--color-bright-orange);
+  padding: 4.7rem;
+}
+
+.suv {
+  background-color: var(--color-dark-cyan);
+}
+
+.luxury {
+  background-color: var(--color-very-dark-cyan);
+}
+
+.heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 3.8rem;
+  padding-top: 3.1rem;
+  padding-bottom: 3.1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--color-light-gray);
+  margin: 0;
+}
+
+.description {
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 2.6rem;
+  font-weight: 300;
+}
+
+.btn {
+  background-color: var(--color-light-gray);
+  font-family: "Lexend Deca", sans-serif;
+  padding: 1.6rem 2.9rem;
+  border-radius: 40px;
+  border: 0;
+  color: var(--color-bright-orange);
+}
+
+.btn-suv {
+  color: var(--color-dark-cyan);
+}
+
+.btn-luxury {
+  color: var(--color-very-dark-cyan);
+}
+
+.btn:hover {
+  background-color: var(--color-bright-orange);
+  border: var(--color-light-gray) solid 2px;
+  color: var(--color-light-gray);
+  cursor: pointer;
+}
+
+.btn-suv:hover {
+  background-color: var(--color-dark-cyan);
+}
+
+.btn-luxury:hover {
+  background-color: var(--color-very-dark-cyan);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: black;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-element {
+    width: 20.6rem;
+    height: 40rem;
+  }
+
+  .container section:first-child {
+    border-radius: 0.8rem 0 0 0.8rem;
+  }
+
+  .container section:last-child {
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+
+  .heading {
+    padding-bottom: 2.8rem;
+  }
+
+  .description {
+    margin-bottom: 8.1rem;
+  }
+
+  .btn {
+    font-size: 15px;
+  }
+  .attribution {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 2000%);
+  }
+}
