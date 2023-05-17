@@ -28,8 +28,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/rahulghosh8341/FrontendMentor-3-column-preview-card)
-- Live Site URL: [](https://rahulghosh8341.github.io/FrontendMentor-3-column-preview-card/)
+
+- Solution URL: [Add solution URL here](https://github.com/rahulghosh8341/FrontendMentor-3-column-preview-card)
+- Live Site URL: [Add live site URL here](https://rahulghosh8341.github.io/FrontendMentor-3-column-preview-card/)
 
 ## My process
 
