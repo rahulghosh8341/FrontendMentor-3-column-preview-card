@@ -92,16 +92,6 @@ body {
   background-color: var(--color-very-dark-cyan);
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  color: black;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 @media screen and (min-width: 768px) {
   body {
     display: flex;
@@ -137,11 +127,5 @@ body {
 
   .btn {
     font-size: 15px;
-  }
-  .attribution {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 2000%);
   }
 }
